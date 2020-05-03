@@ -1,0 +1,14 @@
+[
+    {
+      "name": "${container_name}",
+      "image": "${image_url}",
+      "cpu": ${fargate_cpu},
+    "memory": ${fargate_memory},
+      "portMappings": [
+        {
+          "containerPort": ${container_port},
+          "hostPort": ${host_port}
+      }
+      ]
+    }
+  ]
